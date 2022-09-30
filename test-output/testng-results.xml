@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[==DB Connection Successful==]]>
+    </line>
+    <line>
+      <![CDATA[==db closed==]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-09-30T03:24:01Z" name="Default suite" finished-at="2022-09-30T03:24:03Z" duration-ms="2750">
+    <groups>
+    </groups>
+    <test started-at="2022-09-30T03:24:01Z" name="Default test" finished-at="2022-09-30T03:24:03Z" duration-ms="2750">
+      <class name="endToendScenarios.CreateProjectAndVerifyInDB2">
+        <test-method is-config="true" signature="bsConfig()[pri:0, instance:endToendScenarios.CreateProjectAndVerifyInDB2@6a47b187]" started-at="2022-09-30T03:23:59Z" name="bsConfig" finished-at="2022-09-30T03:24:01Z" duration-ms="1685" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[==DB Connection Successful==]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bsConfig -->
+        <test-method signature="createProject()[pri:0, instance:endToendScenarios.CreateProjectAndVerifyInDB2@6a47b187]" started-at="2022-09-30T03:24:01Z" name="createProject" finished-at="2022-09-30T03:24:03Z" duration-ms="2719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProject -->
+        <test-method is-config="true" signature="asConfig()[pri:0, instance:endToendScenarios.CreateProjectAndVerifyInDB2@6a47b187]" started-at="2022-09-30T03:24:03Z" name="asConfig" finished-at="2022-09-30T03:24:03Z" duration-ms="12" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[==db closed==]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- asConfig -->
+      </class> <!-- endToendScenarios.CreateProjectAndVerifyInDB2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
